@@ -1,6 +1,6 @@
 import random
 
-word_bank = ['elephant', 'alligator', 'monkey', 'shark', 'giraffe']
+word_bank = ['elephant', 'alligator', 'monkey', 'shark', 'giraffe', 'whale', 'snake', 'donkey', 'tiger', 'lion', 'deer', 'dog', 'cat']
 word = random.choice(word_bank)
 guessedword = ['_'] * len(word)
 attempts = 10
